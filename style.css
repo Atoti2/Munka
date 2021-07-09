@@ -67,18 +67,19 @@ ul{
 }
 .navBar ul li{
   font-family: 'Roboto Condensed', sans-serif;
-  padding:20px;
+  padding:30px;
   text-decoration: none;
-  font-size:25px;
+  font-size:20px;
   transition: all 0.4s ease-in-out;
   color: #F13C20;
  
 }
 .navBar ul li:hover{
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.4s ease;
 text-decoration: none;
+border-bottom: 3px solid #96d4d4 ;
 }
 .navBar{
   background-color: #333;
@@ -98,7 +99,6 @@ left: 0;
   transition: all 0.4s ease-in-out;
   color: #F13C20;
 
- 
 }
 
 
