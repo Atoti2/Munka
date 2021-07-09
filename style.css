@@ -115,6 +115,7 @@ left: 0;
   .column>img{
     object-fit:scale-down;
   }
+ 
 
 @media (max-width: 768px) {
   .munka>img{
@@ -129,9 +130,12 @@ left: 0;
     padding-left: 10px;
   }
 }}
-@media (max-width: 375px) {
+@media (max-width: 700px) {
   .footer{
     position:static;
    
+  }
+  img{
+    width: 350px;
   }
 }
