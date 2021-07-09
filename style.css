@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-color: #191919;
+    color: #a5a3a1;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h1 {
+    text-align: center;
+}
+
+img{
+ float: left;
+  width: 500px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.row{
+  display: flex;
+}
+.column{
+  flex: 50%;
+  padding: 5px;
+  overflow: hidden;
+}
+.par>p{
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.munka>img{
+  width: 250px;
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.navBar ul{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  
+}
+.navBar ul li{
+  font-family: 'Roboto Condensed', sans-serif;
+  padding:20px;
+  text-decoration: none;
+  font-size:25px;
+  transition: all 0.4s ease-in-out;
+  color: #F13C20;
+}
+.navBar ul li:hover{
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+.navBar{
+  background-color: #333;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  img {
+    margin: 4px;
+    width: 300px;
+  }
+  .par>p{
+    letter-spacing: none;
+  }
+ 
+}
+@media (max-width: 768px) {
+  .munka>img{
+   width: 33.33%;
+    
+  }
+ 
+}
