@@ -7,6 +7,10 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 
 }
+
+
+
+
 h1 {
     text-align: center;
     font-size: 50px;
@@ -18,6 +22,12 @@ br
     -ms-user-select: none; 
     user-select: none; 
 }
+
+.navBar img{
+  width: 30px;
+ 
+}
+
 .footer img{
   width: 30px;
 }
@@ -57,6 +67,7 @@ ul{
   list-style-type: none;
  
 }
+
 .navBar ul{
   margin: 0;
   display: flex;
@@ -66,19 +77,20 @@ ul{
 }
 .navBar ul li{
   font-family: 'Roboto Condensed', sans-serif;
-  padding:30px;
+  padding:20px;
   text-decoration: none;
   font-size:20px;
   transition: all 0.4s ease-in-out;
   color: #F13C20;
- 
+
 }
 .navBar ul li:hover{
   font-size: 25px;
   cursor: pointer;
   transition: 0.4s ease;
 text-decoration: none;
-border-bottom: 3px solid #96d4d4 ;
+border-bottom:  3px solid #96d4d4 ;
+
 color: #ffffff;
 }
 .navBar{
