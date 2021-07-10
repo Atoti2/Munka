@@ -80,6 +80,7 @@ ul{
   transition: 0.4s ease;
 text-decoration: none;
 border-bottom: 3px solid #96d4d4 ;
+color: #ffffff;
 }
 .navBar{
   background-color: #333;
@@ -137,5 +138,10 @@ left: 0;
   }
   img{
     width: 350px;
+  }
+}
+@media (min-width: 410px) and (max-width: 512px) {
+  .par img{
+    width: 400px;
   }
 }
