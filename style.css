@@ -19,8 +19,7 @@ br
     user-select: none; 
 }
 .footer img{
-  height: 15px;
-
+  width: 30px;
 }
 img{
  float: left;
@@ -104,15 +103,12 @@ left: 0;
 
 
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 442px) {
   img {
     margin: 4px;
     width: 300px;
   }
-  .par>p{
-    letter-spacing: none;
-    padding-left: 10px;
-  }
+
   .column>img{
     object-fit:scale-down;
   }
@@ -126,10 +122,7 @@ left: 0;
   br{
     display: none;
   }
-  .par>p{
-    letter-spacing: none;
-    padding-left: 10px;
-  }
+
 }}
 @media (max-width: 700px) {
   .footer{
@@ -143,5 +136,12 @@ left: 0;
 @media (min-width: 410px) and (max-width: 512px) {
   .par img{
     width: 400px;
+  }
+ 
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .par>p{
+    padding-left: 10px;
   }
 }
